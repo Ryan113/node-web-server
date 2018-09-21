@@ -2,3 +2,4 @@ node_modules/
 server.log
 express-basics.js
 package-lock.json
+.gitignore

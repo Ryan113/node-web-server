@@ -44,6 +44,13 @@ app.get('/', (request, response) => {
   })
 });
 
+app.get('/projects', (request, response) => {
+  response.render('projects.hbs', {
+    pageTitle: "Product Page",
+    welcomeMessage: "Welcome to the product page!",
+  })
+});
+
 // app.get('/maintenance', (request, response) => {
 //   response.render('maintenance.hbs', {
 //     pageTitle: "Maintenance Page",
